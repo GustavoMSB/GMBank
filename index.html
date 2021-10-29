@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>GMBank</title>
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex align-items-center justify-content-between mt-1">
+        <h1>GM<span class="green">Bank</span></h1>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <img src="./images/card.svg" alt="Card" class="col-md-6">
+        <div class="col-md-2" id="brtt"></div>
+        <div class="dashboard mt-4 col-md-4">
+          <h2>Meet GM<span class="green">Bank</span></h2>
+          <p class="mt-3">A new virtual bank full of innovations, both in terms of saving and even investing.</p>
+          <form>
+            <h3>Register</h3>
+            
+            <label for="name">Username</label>
+            <input type="text" placeholder="Your name" name="name" class="mb-2">
+            
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Your email address" class="mb-2">
+
+            <label for="number">Phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+            <button class="btn-sub mt-4">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
