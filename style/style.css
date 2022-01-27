@@ -43,13 +43,14 @@ button{
   cursor: not-allowed;
 }
 
-header{
-  height: 10vh;
+header {
+  background: var(--bg-input);
 }
 
 header div h1{
   color: var(--text-title);
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .green{
